@@ -1,6 +1,6 @@
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import s from './Loader.css';
+import s from './Loader.module.css';
 
 function LoaderComponent() {
   return (

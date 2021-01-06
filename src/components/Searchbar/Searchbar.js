@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from './Searchbar.css';
+import s from './Searchbar.module.css';
 
 function Searchbar({ onHandleSubmit, onSearchQueryChange, value }) {
   return (

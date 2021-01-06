@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import errorImage from './error.jpg';
-import s from './ErrorView.css';
+import s from './ErrorView.module.css';
 
 function ErrorView({ texterror }) {
   return (
