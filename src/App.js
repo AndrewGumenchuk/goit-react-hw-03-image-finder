@@ -6,7 +6,7 @@ import Container from './components/Container';
 import Searchbar from './components/Searchbar';
 import ImageGallery from './components/ImageGallery';
 import Button from './components/Button';
-import LoaderComponent from './components/Loader';
+import LoaderComponent from './components/LoaderComponent';
 import Modal from './components/Modal';
 import ErrorView from './components/ErrorView';
 
