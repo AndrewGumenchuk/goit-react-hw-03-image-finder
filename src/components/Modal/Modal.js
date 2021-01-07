@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
-import s from './Modal.module.css';
+import './Modal.css';
 
 const modalRoot = document.querySelector('#modal-root');
 
@@ -30,8 +30,8 @@ class Modal extends Component {
     const { largeImageURL } = this.props;
 
     return createPortal(
-      <div className={s.backdrop} onClick={this.handleBackdropClick}>
-        <div className={s.modal}>
+      <div className={Backdrop} onClick={this.handleBackdropClick}>
+        <div className={Modal}>
           <img src={largeImageURL} alt="" />
         </div>
       </div>,
